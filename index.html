@@ -1,0 +1,787 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="viewport" content="width=device-width"/>
+<title>CICBA-2024</title>
+<!-- STYLES & JQUERY 
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/icons.css"/>
+<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+<link rel="stylesheet" type="text/css" href="css/skinblue.css"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<script src="js/jquery-1.9.0.min.js"></script><!-- the rest of the scripts at the bottom of the document -->
+</head>
+<body style="background: linear-gradient(rgba(0, 0, 139, 0.5), rgba(255, 20, 147, 0.05), rgba(152, 251, 152, 0.5)); background-attachment: fixed; background-size: 100% 100%; position: relative; z-index: index 1;">
+<!-- TOP LOGO & MENU
+================================================== -->
+<div class="grid" style="padding-left: 7px;">
+	<div class="row space-bot">
+    <div class="c12" align="center" style="padding-top: 10px;color:white;font-weight: bold;font-size: medium;">
+    Sixth International Conference on 
+    <h3>
+				Computational Intelligence in Communications and Business Analytics (CICBA-2024)
+
+				</h3>
+    </div>
+    
+		<!--Logo-->
+	<div class="c12" align="center" >
+		<table style="background: linear-gradient(to right, rgba(255, 107, 107, 0.25), rgba(0, 191, 255, 0.25));
+		" > <tr>
+				<td width="33%" style="text-align: left;border: none;padding: 0;">
+						<img src="images/springer-logo.png" class="logo" alt="">
+					</td>
+				<td width="33%" style="text-align: center; border: none">
+					
+                    <img src="images/logo.png" class="logo" alt="">
+					
+					<img src="images/nitplogo.png" alt="" width="100" height="107" class="logo">
+					
+                    
+</td>
+				<td width="33%" style="text-align:right;border:none">
+						<img src="images/ccis_logo.png" class="logo" alt="">
+					</td>
+			</tr>
+            </table>
+
+	</div>
+		<!--<h4 style="color:Red;text-align:center;">-->
+				            
+				<!--// List of accepted papers for CICBA-2023 -->
+				<!--//</h4>-->
+				<div style="text-align: center;">
+					<!-- <a href="CICBA 2023_Presentation_Template.pptx" style="margin-right: 20px;">
+					  <h5 style="color: peru; display: inline-block;">Presentation Template</h5>
+					</a> -->
+					<a href="cfp.html" target="_blank" style="margin-right: 20px;">
+					  <h3 class="blink blink-one" style="display: inline-block; padding-left: 7px;">Call For Paper(For 2024)</h3>
+					</a>
+					<br/>
+					<a href="https://easychair.org/conferences/?conf=cicba2024" target="_blank">
+						<h2 class="blink blink-one" style="display: inline-block;color: blue;">Submission Link</h2>
+					  </a>
+					<br>
+					<a href="specialSession.html" style="margin-right: 20px;">
+					  <h5 class="blink blink-one" style="color: red; display: inline-block; padding-left: 7px;">Call For Special Sessions</h5>
+					</a>
+					<br/>					
+					<h5 class="blink-one" style="color: darkgreen; display: inline-block; text-align:center;">The deadline for paper submission has been extended till October 30th, 2023</h5>
+					<br>
+					<h5 class="blink-one" style="color: red; display: inline-block; text-align:center;">The deadline for  special session proposal has been extended till October 15th, 2023</h5>
+					
+				  </div>
+<h6 style="color:violet;text-align:center;">
+The proceedings will be published with Springer in their Communications in Computer and Information Science (CCIS) Series (SCImago, Scopus, DBLP)<br />
+				</h6>
+				<h5 style="color:darkorange;text-align:center;">
+					The proceedings of the conference will take place in hybrid mode.				</h5>
+		         
+		
+		
+		   <style>
+      .blink {
+        animation: blinker 0.6s linear infinite;
+        color: brown;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+		text-align:center;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink-one {
+        animation: blinker-one .9s linear infinite;
+      }
+      @keyframes blinker-one {
+        0% {
+          opacity: 0;
+        }
+      }
+      .blink-two {
+        animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
+        
+            <a href="fees.html">
+            <h4 class="blink blink-one">
+			
+				</h4></a>
+		
+		
+		
+		<a href="review_process.pdf">
+            <h4 >
+				Review Policy 
+				</h4></a>
+		
+		
+		
+		
+		
+		
+		
+		<!--Menu-->
+		<div class="c12" align="center">
+			<nav id="topNav">
+			<ul id="responsivemenu">
+				<li class="active"><a href="index.html"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+<li><a href="speakers.html">Speakers</a></li>
+				<li><a href="#">For Authors</a>
+<ul style="display: none;">					
+					<li><a href="submission.html">Submission</a></li>
+					<li><a href="registration.html">Registration</a></li>
+					<li><a href="dates.html">Important Dates</a></li>
+					<li><a href="tracks.html">Tracks & Topics</a></li>
+					<li><a href="cfp.html" style="font-weight: bold;">Calls For Paper</a>
+						<!-- <ul>
+						  <li><a href = "cfp.html">Call For Paper</a></li>
+						  <li ><a href="specialSession.html" style="color:orangered">Special Session Proposal</a></li>
+						  <li><a href="specSessTemplate.html" style="color:yellow">Special Session Format</a></li>
+						  <li></li>
+						</ul>  -->
+					  </li><li><a href="latex2e-template-proceedings.zip" download>Paper Template for LaTeX2a</a></li>					
+					<li><a href="springer-template-word.zip" download>Paper Template for MS Word</a></li>					
+					
+				</ul>
+				</li>
+				<li><a href="#">Committee</a>
+<ul>
+					<li><a href="advisory_committee.html">Advisory Committee</a></li>
+					<li><a href="chairs.html#editorb">Editorial Board</a></li>
+                    <li><a href="chairs.html#chairs">Chairs</a></li>
+					<li><a href="program_committee.html">TPC</a></li>
+					<li><a href="organizing_committee.html">Org. Committee</a></li>					
+					<li><a href="other_committee.html">Program Committee</a></li>
+					
+					
+				</ul>
+				</li>	
+                
+				<li><a href="#" style = "font-weight: bolder;">Calls For Paper</a>
+					<ul>
+					  <li><a href = "cfp.html" >Call For Paper</a></li>
+					  <li ><a href="specialSession.html" style="color:orangered">Special Session Proposal</a></li>
+					  <li><a href="specSessTemplate.html" style="color:yellow">Special Session Format</a></li>
+					  <li></li>
+					</ul> 
+				  </li>           	  <li><a href="tracks.html">Tracks</a></li>
+<li><a href="dates.html">Dates</a></li>
+                    
+                	<li><a href="#">Venue</a>
+<ul>
+					<li><a href="contact.html">Venue</a></li>
+					<li><a href="accomodation.html">Accomodation</a></li>
+					<li><a href="tour.html">Tour Guide</a></li>
+										
+					
+				</ul>
+				</li>
+             <li><a href="sponsors.html">Sponsorship</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+             <li class="last"><a href="contact.html">Contact</a></li>
+				
+			</ul>
+						<!-- <a href="https://link.springer.com/book/10.1007/978-3-030-75529-4" target="_blank"> -->
+            <h4 class="blink blink-one">
+				<!-- Proceedings of CICBA-2021 is now available online -->
+				</h4></a>	
+						<!-- <a href="CICBA_2022_List_of_Accepted_Papers.pdf" target="_blank"><img src="accepted_papes.gif" alt=""></a>  -->
+			</nav>
+						
+		</div>
+	</div>
+							
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+			
+						
+
+
+<div class="undermenuarea">
+						
+						
+		
+		
+						
+						
+	<!-- <div class="boxedshadow">
+	</div> -->
+	<!-- SLIDER AREA
+	================================================== -->
+	<div id="da-slider" class="da-slider">
+		<!--Slide 1-->
+		<div class="da-slide">
+			<h2> CICBA-2024 </h2>
+			<p>
+				Publish Your Research with Premium Publisher.
+			</p>
+			<a href="#" class="da-link" style="width:275px;">January 23-25, 2024</a>
+			<div class="da-img">
+				<img src="images/slide2.jpg" alt="">
+			</div>
+		</div>
+		<!--Slide 2-->
+		<div class="da-slide">
+			<h2>CICBA-2024</h2>
+			<p>
+				 Listen from Pioneer Speakers.
+			</p>
+			<a href="speakers.html" class="da-link" style="width:275px;">January 23-25, 2024</a>
+			<div class="da-img">
+				<img src="images/slide2.jpg" alt="" width="600" height="300">
+			</div>
+		</div>
+		<!--Slide 3-->
+		<div class="da-slide">
+			<h2> CICBA-2024 </h2>
+			<p>
+				 Meet Fabulous Personalities.
+			</p>
+			<a href="#" class="da-link" style="width:275px;">January 23-25, 2024</a>
+			<div class="da-img">
+				<img src="images/slide2.jpg" alt="">
+			</div>
+		</div>
+		<nav class="da-arrows">
+		<span class="da-arrows-prev"></span>
+		<span class="da-arrows-next"></span>
+		</nav>
+	</div>
+</div>
+<!-- UNDER SLIDER - BLACK AREA
+================================================== -->
+
+
+
+
+
+
+
+<br>
+
+
+
+
+<br>
+
+<!-- START content area
+================================================== -->
+<div class="grid">
+						
+						
+	
+						
+	<div class="row space-bot">
+		<!--INTRO-->
+        <!--start about conf 1-->
+		<div class="row">
+        
+        
+        
+        <!--Box 1-->
+		<div class="c6" align="left">
+			<h2 class="title hometitlebg"><i class="icon-qrcode smallrightmargin"></i> Tracks & Topics(not limited to)</h2>
+			<div class="noshadowbox" align="left">
+				
+				
+                
+                
+                
+                <div >
+				
+				<dl class="faqs nopadding noborder">
+					<dt><strong>Computational Intelligence</strong></dt>
+					<dd style="display: none;">
+                    <ol>
+               
+<li>Fuzzy Systems</li>
+<li>Machine Learning</li>
+<li>Evolutionary Computation</li>
+<li>Hybridization in Computational Intelligence</li>
+</ol>
+                    
+                    </dd>
+					                    
+                    
+                    <dt><strong>Theories and Applications to Data Communications and Analytics</strong></dt>
+					<dd style="display: none;">
+                    <!-- <ol>
+                    
+
+<li>Security &Authentication</li>
+<li>Smart sensing systems</li>
+                    </ol>
+                  
+                    </dd>
+                    
+      <dt><strong>Business Analytics</strong></dt>
+					<dd style="display: none;">
+                          
+					
+                     <ol>
+                   
+
+                    -->
+                    </dd>
+					
+                    
+          
+				</dl>
+			</div>
+                
+                
+                
+                
+                
+				<p class="bottomlink">
+					<a href="tracks.html" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+		<!--Box 2-->
+		
+		<div class="c6">
+			<h2 class="title hometitlebg"><i class="icon-info-sign" style="margin-right:10px;"></i> News Update</h2>
+			<div class="noshadowbox">
+				
+				<ul class="icons">
+                
+					
+				
+				
+						
+                <strong><li><i class="icon-double-angle-right"></i> 
+                <a href="cfp.html">Download Call for Paper of CICBA-2024 </a>
+                </li></strong>
+                
+						
+				<strong><li><i class="icon-double-angle-right"></i> 
+                <a href="review_process.pdf" target="_blank">Detailed Review Policy </a>
+                </li></strong>
+             	
+                
+    </ul>
+				<p class="bottomlink">
+					<a href="#" class="neutralbutton"><i class="icon-link"></i></a>
+				</p>
+			</div>
+		</div>
+	</div>
+        
+        
+        
+			<div class="c10" style="padding-top: 10px;">
+				<h1 class="maintitle">
+				THE CONFERENCE
+				</h1>
+				<p align="justify">
+					<span class="dropcap">S</span>ixth International Conference on Computational Intelligence in Communications and Business Analytics (CICBA - 2024) aims to carry together researchers, engineers, developers and practitioners from academia and industry to share their experience, and exchange and synthesize their ideas. CICBA-2024 will be organized by Department of Computer Science & Engineering, National Institute Of Technology, Patna during January 23-25, 2024, 2024. CICBA 2017 and CICBA 2018 were organized by Calcutta Business School, Kolkata and Kalyani Government Engineering College, Kalyani, respectively. And the third conference of this series was organised by Department of Computer & System Sciences, Visva-Bharati University during December 7-9, 2021. First two series of this international conference were organized in association with Computer Society of India. The fourth international conference of this series was organized by Department of Computer Science and Engineering, Assam University during January 6-7, 2022.
+The previous series of this conference constituted a collection of high-quality peer-reviewed research papers received from all over the world. The chairs and co-chairs of different committees consisted of international academic and industrial luminaries, and the Technical Program Committee comprised of technical experts, in all the series. The proceedings publication partner was Springer Nature in CCIC series.<br>
+<strong>The Sixth conference of this series, CICBA-2024 is inviting all research findings in the field of Computational Intelligence (CI) - both Theories and Applications primarily encompassing the domains of Data Communications and Analytics. This international conference will offer a comprehensive platform for the research community to exchange their ideas on contemporary augmentation from the relevant topics.</strong>
+			  </p>
+         	</div>
+			<br>
+            <br>
+            <div class="actionbutton" align="center"> <a href="http://www.cicba.in/cicba2023/" target="_blank"> CICBA-2023</a>  </div>
+            <br>
+            <br>
+             
+            <br>
+            <div class="actionbutton" align="center"> <a href="http://www.cicba.in/CICBA_2022/" target="_blank"> CICBA-2022</a>  </div>
+            <br>
+            <br>
+            <br>
+            <div class="actionbutton" align="center"> <a href="http://www.cicba.in/CICBA_2021/" target="_blank"> CICBA-2021</a>  </div>
+            <br>
+            <br>
+            <br>
+            <div class="actionbutton" align="center"><a href="http://cicba.kgec.edu.in/" target="_blank"> CICBA-2018</a></div>
+                
+		</div>
+        <!--End about conf 1-->
+          <div class="c4">
+          <h1 class="maintitle ">
+				<span></span>
+			</h1>
+				<img src="images/nitpatna.jpg" class="logo" alt="">
+				
+                
+                
+                
+                
+      </div>
+        <div class="c8">
+				<h1 class="maintitle ">
+				National Institute Of Technolgy,Patna
+				</h1>
+                
+				National Institute of Technology Patna is the 18th National Institute of Technology created by the Ministry of H.R.D. Government of India after rechristening the erstwhile Bihar College of Engineering Patna on 28. 01. 2004. NIT Patna marked its humble beginning in 1886 with the establishment of pleaders survey training school which was subsequently promoted of Bihar College of Engineering Patna in 1924.<br />
+               
+				The Institute has also been declared as a Centre of Excellence of impart high level education training , research and development in science, engineering technology and humanities. It is imparting high quality education & values at UG (B.Tech), PG (M.Tech) & Ph .D programmes through its experienced faculty well versed in their respective field of engineering an technology with well equipped laboratories              
+                             
+                
+				                
+</div>
+
+               
+        <!--start about JU 1-->
+        
+        <!--start about IT-->
+        <!--start about IT-->
+        
+        <!--End  end JU 1-->
+		
+	<!-- SPONSORS
+	================================================== -->
+<div class="row space-top">
+		<div class="c12 space-top">
+			<h1 class="maintitle ">
+			SPONSORSHIP
+			</h1>
+		</div>
+	</div>
+	<div class="row space-bot">
+		<div class="c12">
+			<div class="list_carousel">
+				<div class="carousel_nav">
+					<a class="prev" id="car_prev" href="#"><span>prev</span></a>
+					<a class="next" id="car_next" href="#"><span>next</span></a>
+				</div>
+				<div class="clearfix">
+				</div>
+				<ul id="recent-projects">
+					<!--featured-projects 1-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="#"><img src="images/Sponsor-Platinum.png" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Platinum Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 2-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="contact.html"><img src="images/sponsor_diamond.png" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Diamond Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 3-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="contact.html"><img src="images/sponsor_gold.jpg" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Gold Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 4-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="contact.html"><img src="images/sponsor_silver.jpg" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Silver Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 5-->
+                    
+                    <!--featured-projects 7-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="sponsors.html"><img src="images/kp.png" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Knowledge Partner</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+                    
+                    
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="contact.html"><img src="images/sponsor_kit.jpg" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Delegate kits Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 6-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="contact.html"><img src="images/spnsor_dinner.png" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Dinner Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 7-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="sponsors.html"><img src="images/sponsor_lunch.png" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">Lunch Sponsor</h1>
+							<p>
+								 Get Details</a>
+							</p>
+						</div>
+					</div>
+					</li>
+					<!--featured-projects 8-->
+					<li>
+					<div class="featured-projects">
+						<div class="featured-projects-image">
+							<a href="sponsors.html"><img src="images/sponsor_tea.png" class="imgOpa" alt=""></a>
+						</div>
+						<div class="featured-projects-content">
+							<h1><a href="sponsors.html">High Tea Sponsor </a></h1>
+							<p>
+								 Get Details
+							</p>
+						</div>
+					</div>
+					</li>
+				</ul>
+				<div class="clearfix">
+				</div>
+			</div>
+		</div>
+         * Final Approval Pending 
+	</div>
+	<!-- CALL TO ACTION 
+	================================================== -->
+	
+</div><!-- end grid -->
+
+
+
+<!-- hitwebcounter Code START -->
+<!-- hitwebcounter Code START -->
+
+
+                                    
+                                    
+                                      
+                                          
+                                                               
+            
+
+
+
+<!-- FOOTER
+================================================== -->
+<div id="wrapfooter">
+	<div class="grid">
+		<div class="row" id="footer">
+			<!-- to top button  -->
+			<p class="back-top floatright">
+				<a href="#top"><span></span></a>
+			</p>
+			<!-- 1st column -->
+			<div class="c4">
+				<h2 class="title"><i class="icon-envelope-alt"></i> Follow US</h2>
+				<hr class="footerstress">
+			
+				<ul class="social-links" style="margin-top:15px;">
+					<li class="twitter-link smallrightmargin">
+					<a href="#" class="twitter has-tip" target="_blank" title="Follow Us on Twitter">Twitter</a>
+					</li>
+					<li class="facebook-link smallrightmargin">
+					<a href="#" class="facebook has-tip" target="_blank" title="Join us on Facebook">Facebook</a>
+					</li>
+					<li class="google-link smallrightmargin">
+					<a href="#" class="google has-tip" title="Google +" target="_blank">Google</a>
+					</li>
+					<li class="linkedin-link smallrightmargin">
+					<a href="#" class="linkedin has-tip" title="Linkedin" target="_blank">Linkedin</a>
+					</li>
+					<li class="pinterest-link smallrightmargin">
+					<a href="#" class="pinterest has-tip" title="Pinterest" target="_blank">Pinterest</a>
+					</li>
+                    
+				</ul>
+			</div>
+			<!-- 2nd column -->
+			
+			<!-- 3rd column -->
+			<div class="c4">
+				<h2 class="title"><i class="icon-envelope-alt"></i> Contact</h2>
+				<hr class="footerstress">
+				<dl>
+					<dt>Organizing Chairs/Program Chairs,CICBA-2024</dt>
+                    <dt>National Institute Of Technology</dt>
+                    <dt>Patna, Bihar</dt>
+                    <dd><span>PIN</span> - 800005</dd>
+                    <dd><strong>E-Mail-</strong> cicba2024@gmail.com</dd>
+					
+				</dl>
+				                
+                  
+			</div>
+			<!-- 4th column -->
+			<div class="c4">
+				<h2 class="title"><i class="icon-link"></i> Links</h2>
+				<hr class="footerstress">
+				<ul>
+					<li><a href="accomodation.html">Accomodation</a></li>
+                    <li><a href="dates.html">Important Dates</a></li>
+                    <li><a href="cfp.html">Speakers</a></li><br>
+                    <li><a href="tracks.html">Trakes</a></li>
+                    <li><a href="contact.html">Venue</a></li>
+                    <li><a href="cfp.html">CFP</a></li>
+                    					
+				</ul>
+			</div>
+			<!-- end 4th column -->
+		</div>
+        
+	</div>
+    
+
+</div>
+<!-- copyright area -->
+<div class="copyright">
+	<div class="grid">
+		<div class="row">
+			<div class="c6">
+				 CICBA-2024 &copy; 2024. All Rights Reserved.
+			</div>
+			<div class="c6">
+				<span class="right" style="color:aqua; font-weight: 400;">
+				Designed and Maintained by: Ashutosh Singh & Arun Singh </span>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END CONTENT AREA -->
+<!-- JAVASCRIPTS
+================================================== -->
+<!-- all -->
+<script src="js/modernizr-latest.js"></script>
+
+<!-- menu & scroll to top -->
+<script src="js/common.js"></script>
+
+<!-- slider -->
+<script src="js/jquery.cslider.js"></script>
+
+<!-- cycle -->
+<script src="js/jquery.cycle.js"></script>
+
+<!-- carousel items -->
+<script src="js/jquery.carouFredSel-6.0.3-packed.js"></script>
+
+<!-- twitter -->
+<script src="js/jquery.tweet.js"></script>
+
+<!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
+<script type="text/javascript">
+$(window).load(function(){			
+			$('#recent-projects').carouFredSel({
+				responsive: true,
+				width: '100%',
+				auto: true,
+				circular	: true,
+				infinite	: false,
+				prev : {
+					button		: "#car_prev",
+					key			: "left",
+						},
+				next : {
+					button		: "#car_next",
+					key			: "right",
+							},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					},
+				scroll : 2000,
+				items: {
+					visible: {
+						min: 4,
+						max: 4
+					}
+				}
+			});
+		});	
+</script>
+<script type="text/javascript"> 
+  $(document).ready(function () {
+	   // ---- FAQs ---------------------------------------------------------------------------------------------------------------
+		$('.faqs dd').hide(); // Hide all DDs inside .faqs
+		$('.faqs dt').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}).click(function(){ // Add class "hover" on dt when hover
+		$(this).next().slideToggle('normal'); // Toggle dd when the respective dt is clicked
+		}); 
+});
+</script>
+<!-- Call opacity on hover images from carousel-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("img.imgOpa").hover(function() {
+      $(this).stop().animate({opacity: "0.6"}, 'slow');
+    },
+    function() {
+      $(this).stop().animate({opacity: "1.0"}, 'slow');
+    });
+  });
+</script>
+</body>
+</html>
