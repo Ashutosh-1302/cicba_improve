@@ -65,3 +65,26 @@ a.expandAll {padding: 10px;}
 .titlehead {text-align:left;}
 .actionbutton {display:block;}
 }
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responsive-table td {
+    border: none;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .responsive-table tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .responsive-table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
