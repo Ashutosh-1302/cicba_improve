@@ -7,15 +7,15 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <link rel="stylesheet" type="text/css" href="css/icons.css"/>
 <link rel="stylesheet" type="text/css" href="css/slider.css"/>
-<link rel="stylesheet" type="text/css" href="css/skinblue.css"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="css/skinred.css"/><!-- change skin color -->
 <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 <script src="js/jquery-1.9.0.min.js"></script><!-- the rest of the scripts at the bottom of the document -->
 </head>
-<body style=" position: relative; z-index: index 1;">
+<body style=" position: relative; z-index: index 1;background: rgb(252, 241, 241,.75);padding-top: -40px;">
 <!-- TOP LOGO & MENU
 ================================================== -->
 
-<div ><nav id="topNav" style="width:100%;height:80px;background-color:black;">
+<nav id="topNav" style="width:100%;background-color:black;z-index: 10;height: 80px;">
 			<ul id="responsivemenu">
 				<li class="active"><a href="index.html"><img src="images/logo.png" class="logo" alt="" style="width:50px;height:50px"><span class="showmobile">Home</span></a></li>
 <li><a href="speakers.html">Speakers</a></li>
@@ -25,13 +25,13 @@
 					<li><a href="registration.html">Registration</a></li>
 					<li><a href="dates.html">Important Dates</a></li>
 					<li><a href="tracks.html">Tracks & Topics</a></li>
-					<li><a href="cfp.html" style="font-weight: bold;">Calls For Paper</a>
-						<!-- <ul>
+					
+						
 						  <li><a href = "cfp.html">Call For Paper</a></li>
-						  <li ><a href="specialSession.html" style="color:orangered">Special Session Proposal</a></li>
+						  <!-- <li ><a href="specialSession.html" style="color:orangered">Special Session Proposal</a></li>
 						  <li><a href="specSessTemplate.html" style="color:yellow">Special Session Format</a></li>
 						  <li></li>
-						</ul>  -->
+					 -->
 					  </li><li><a href="latex2e-template-proceedings.zip" download>Paper Template for LaTeX2a</a></li>					
 					<li><a href="springer-template-word.zip" download>Paper Template for MS Word</a></li>					
 					
@@ -79,11 +79,15 @@
 			
 			
 			</nav>
-			</div>
+
 			<div style="background-image: url('https://www.nitp.ac.in/static/38e3ca6dcde2d64b3a8dd024e041b302/d8255/homebg-1.jpg');background-size: cover;height:auto;width: 100%;background-repeat: no-repeat;
-			background-position: center;
-			background-color: rgba(255, 255, 255, .25);z-index: -200;opacity: 0.;">
-				<div class="grid" style="padding-left: 7px;z-index: 200;">
+			background-position: center;position: relative;">
+			<div style=" background-color: rgba(255, 255, 255, 0.12);
+            width: 100%;
+            height: 100%;
+            position: absolute;"></div>
+				<div class="grid" style="padding-left: 7px;z-index: 200;position: relative;
+				z-index: 1;">
 					<div class="row space-bot">
 					<div class="c12" align="center" style="padding-top: 50px;color:black;font-weight: bold;font-size: medium;padding-bottom: 30px;">
 				<h3>Sixth International Conference on</h3>
@@ -115,7 +119,7 @@
 
 	</div>
 	
-						<h5 style="color:violet;text-align:center;padding-top:10px;">
+						<h5 style="color:white;text-align:center;padding-top:10px;">
 							The proceedings will be published with Springer in their Communications in Computer and Information Science (CCIS) Series (SCImago, Scopus, DBLP)<br />
 											</h5>
 											<h5 style="color:yellow;text-align:center;font-weight: bolder;padding-top:10px;">
@@ -136,7 +140,6 @@
 </div>
 
 
-
 <div class="marquee-container" style="padding-top: 30px;">
 	<style>
 		/* Define the marquee animation */
@@ -153,7 +156,7 @@
 .blink {
 
 white-space: nowrap;
-animation: marquee 10s linear infinite;
+animation: marquee 20s linear infinite;
 }
 
 /* Style the container div */
@@ -164,13 +167,13 @@ width: 100%;
 }
 </style>
 <a href="cfp.html" target="_blank" class="blink">
-    <h3 style="display: inline-block; padding-left: 7px;color: red;">Call For Paper(For 2024)</h3>
+    <h3 style="display: inline-block; padding-left: 7px;color: greenyellow;">Call For Paper(For 2024)</h3>
   </a>
   
   &nbsp;&nbsp;&nbsp;&nbsp; <!-- Add two spaces as separators -->
   
   <a href="https://easychair.org/conferences/?conf=cicba2024" target="_blank" class="blink">
-    <h2 style="display: inline-block;color: violet;">Submission Link</h2>
+    <h2 style="display: inline-block;color: black;">Submission Link</h2>
   </a>
   
   &nbsp;&nbsp; <!-- Add two spaces as separators -->
@@ -180,7 +183,7 @@ width: 100%;
   </a>
   &nbsp;&nbsp; <!-- Add two spaces as separators -->
   
-  <h5 class="blink" style="color: red;">The deadline for paper submission has been extended till October 30th, 2023 &mdash; The deadline for special session proposal has been extended till October 15th, 2023</h5>
+  <h5 class="blink" style="color: black;">The deadline for paper submission has been extended till October 30th, 2023 &mdash; The deadline for special session proposal has been extended till October 15th, 2023</h5>
 
 <br>
 </div>
@@ -205,7 +208,8 @@ width: 100%;
 
 <!-- START content area
 ================================================== -->
-<div class="grid">
+
+<div class="grid" >
 						
 						
 	
@@ -309,10 +313,12 @@ width: 100%;
         
         
         
-			<div class="c10" style="padding-top: 10px;">
+			<div class="c10" style="padding-top: 20px;">
+				<div style=" background-image: linear-gradient(to right, white 0%, white 20%, rgb(250, 208, 208) 90%, rgb(250, 208, 208) 50%, white 100%);">
 				<h1 class="maintitle">
 				THE CONFERENCE
 				</h1>
+			</div>
 				<p align="justify">
 					<span class="dropcap">S</span>ixth International Conference on Computational Intelligence in Communications and Business Analytics (CICBA - 2024) aims to carry together researchers, engineers, developers and practitioners from academia and industry to share their experience, and exchange and synthesize their ideas. CICBA-2024 will be organized by Department of Computer Science & Engineering, National Institute Of Technology, Patna during January 23-25, 2024, 2024. CICBA 2017 and CICBA 2018 were organized by Calcutta Business School, Kolkata and Kalyani Government Engineering College, Kalyani, respectively. And the third conference of this series was organised by Department of Computer & System Sciences, Visva-Bharati University during December 7-9, 2021. First two series of this international conference were organized in association with Computer Society of India. The fourth international conference of this series was organized by Department of Computer Science and Engineering, Assam University during January 6-7, 2022.
 The previous series of this conference constituted a collection of high-quality peer-reviewed research papers received from all over the world. The chairs and co-chairs of different committees consisted of international academic and industrial luminaries, and the Technical Program Committee comprised of technical experts, in all the series. The proceedings publication partner was Springer Nature in CCIC series.<br>
@@ -350,10 +356,11 @@ The previous series of this conference constituted a collection of high-quality 
                 
       </div>
         <div class="c8">
-				<h1 class="maintitle ">
+			<div style=" background-image: linear-gradient(to right, white 0%, white 20%, rgb(250, 208, 208) 90%, rgb(250, 208, 208) 50%, white 100%);">
+				<h1 class="maintitle " >
 				National Institute Of Technolgy,Patna
 				</h1>
-                
+			</div>
 				National Institute of Technology Patna is the 18th National Institute of Technology created by the Ministry of H.R.D. Government of India after rechristening the erstwhile Bihar College of Engineering Patna on 28. 01. 2004. NIT Patna marked its humble beginning in 1886 with the establishment of pleaders survey training school which was subsequently promoted of Bihar College of Engineering Patna in 1924.<br />
                
 				The Institute has also been declared as a Centre of Excellence of impart high level education training , research and development in science, engineering technology and humanities. It is imparting high quality education & values at UG (B.Tech), PG (M.Tech) & Ph .D programmes through its experienced faculty well versed in their respective field of engineering an technology with well equipped laboratories              
@@ -374,9 +381,12 @@ The previous series of this conference constituted a collection of high-quality 
 	================================================== -->
 <div class="row space-top">
 		<div class="c12 space-top">
+			<div style=" background-image: linear-gradient(to right, white 0%, white 20%, rgb(250, 208, 208) 90%, rgb(250, 208, 208) 50%, white 100%);">
+			
 			<h1 class="maintitle ">
 			SPONSORSHIP
 			</h1>
+			</div>
 		</div>
 	</div>
 	<div class="row space-bot">
@@ -529,8 +539,6 @@ The previous series of this conference constituted a collection of high-quality 
 	================================================== -->
 	
 </div><!-- end grid -->
-
-
 
 <!-- hitwebcounter Code START -->
 <!-- hitwebcounter Code START -->

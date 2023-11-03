@@ -247,7 +247,7 @@ blockquote.testimonial-wrap .testimonial-profilediv.restaurant { font-size: 13px
 .list_carousel li { width: 25%; display: block; float: left; margin-left: 10px; cursor: default !important; height: auto; }
 .list_carousel.responsive { width: auto; margin-left: -10px; }
 .clearfix { float: none; clear: both; }
-.list_carousel .carousel_nav { position: absolute; padding-right: 11px; right: 0; top: -52px; background: #fff; padding-left: 5px; }
+.list_carousel .carousel_nav { position: absolute; padding-right: 11px; right: 0; top: -52px; padding-left: 5px; }
 a.prev, a.next { background: url(../images/carousel_arrows.png) no-repeat #444; width: 24px; height: 24px; display: block; position: relative; float: left; margin-left: 3px; -webkit-background-clip: padding-box; /* for Safari */background-clip: padding-box;; }
 a.prev:hover, a.next:hover { background-color: #0E8FAB }
 a.prev { background-position: -2px 0 }
@@ -592,7 +592,7 @@ ul.teambox { padding-left: 25px }
 .avatarspic { border: 1px solid #eee; float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 15px; }
 .justabox { border: 1px solid #eee; padding: 15px; text-align: center; background: #fff; }
 .maintitle { padding: 0; margin: 0 0 30px 0; background: url(../images/separators.png) left top; line-height: 1 !important; font-size: 19px; }
-.maintitle span { background: #f8f8f8; padding-right: 10px; font-family: OpenSansBold; text-transform: uppercase; }
+.maintitle span { padding-right: 10px; font-family: OpenSansBold; text-transform: uppercase; }
 .maintitle.text-center span { padding-left: 10px }
 .dropcap { float: left; font-size: 55px; line-height: 40px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: TimesNewRoman; }
 .leftsidebar { margin-right: 5% }
